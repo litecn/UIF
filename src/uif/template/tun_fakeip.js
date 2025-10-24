@@ -226,6 +226,7 @@ export function AddTun(res, config) {
     // "gso": true,
     "strict_route": setting['strict_route'],
     "auto_route": setting['auto_route'],
+    "auto_redirect": setting['auto_redirect'],
   };
 
   var mtu = 0
