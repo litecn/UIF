@@ -118,6 +118,12 @@
       </el-col>
 
       <el-col :xs="24" :sm="12" :md="8" :lg="8" :xl="8">
+        <el-form-item label="AUTO_REDIECT">
+          <el-switch v-model="outbound_obj.setting.auto_redirect"> </el-switch>
+        </el-form-item>
+      </el-col>
+
+      <el-col :xs="24" :sm="12" :md="8" :lg="8" :xl="8">
         <el-form-item label="MTU">
           <el-input
             v-model.number="outbound_obj.setting.mtu"
@@ -152,6 +158,7 @@ export default {
 
       auto_route: true,
       strict_route: false,
+      auto_rediect: false,
       mtu: "",
       stack: "system",
       mode: "fakeip",
