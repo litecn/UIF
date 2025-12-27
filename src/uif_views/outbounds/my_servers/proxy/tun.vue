@@ -118,7 +118,7 @@
       </el-col>
 
       <el-col :xs="24" :sm="12" :md="8" :lg="8" :xl="8">
-        <el-form-item label="AUTO_REDIECT">
+        <el-form-item label="AUTO_REDRIECT">
           <el-switch v-model="outbound_obj.setting.auto_redirect"> </el-switch>
         </el-form-item>
       </el-col>
@@ -158,7 +158,7 @@ export default {
 
       auto_route: true,
       strict_route: false,
-      auto_rediect: false,
+      auto_redirect: false,
       mtu: "",
       stack: "system",
       mode: "fakeip",
