@@ -673,7 +673,7 @@ export function AddRouteList(res, uifConfig, routeList, isShare) {
     var adName = 'adguard-filter-list-source'
     res['route']['rule_set'].push({
       "type": "remote",
-      "tag": "adguard-filter-list",
+      "tag": adName,
       "format": "binary",
       "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads-all.srs",
       // "url": "https://fastly.jsdelivr.net/gh/UIforFreedom/UIF@master/uifd/adguard/adguard-filter-list.srs",
