@@ -547,7 +547,7 @@
                 :label="$translator({ cn: '内存优化', en: 'Memory Limit' })"
               >
                 <el-select
-                  v-model="uif.config.coreAutoRestart"
+                  v-model="uif.config.coreMemoryLimit"
                   @change="SaveAndApply()"
                 >
                   <el-option

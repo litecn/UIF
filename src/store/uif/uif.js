@@ -357,6 +357,7 @@ var defaultState = {
     routeType: "route",
     useAdguardRule: false,
     coreAutoRestart: "0",
+    coreMemoryLimit: "0",
     ipType: "ipv4_only",
     shareIPType: "ipv4_only",
   },
